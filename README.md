@@ -1,1 +1,1 @@
-# Daily-Bootcamp-Scheduler
+# Daily Bootcamp Scheduler

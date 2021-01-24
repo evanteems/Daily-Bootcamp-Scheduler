@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <!-- icon link CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Daily BootCamp Scheduler</title>
+  </head>
+
+  <body>
+    <header class="Jumbo">
+      <h1 class="display-3">Daily BootCamp Scheduler</h1>
+      <p class="begin">A calendar that will help scheduling the day!</p>
+      <p id="DaysOTW" class="begin"></p>
+    </header>
+    <div class="mustcontain">
+      <!-- Timeblocks displayed here -->
+
+      <!---- Current Day and Hours -->
+        <div class="mustcontain" id="9">
+            <div class="row h-100">
+                <p class="col-sm-1 my-auto time-block">9AM</p>
+                <div class="inputText col-sm-8" id="9"><textarea class="form-control" id="textarea"></textarea></div>
+                <button class="saveBtn col-sm-2"><i class="oi oi-circle-check"></i></button>
+            </div>
+        </div>
+        <div class="mustcontain" id="10">
+            <div class="row h-100">
+                <p class="col-sm-1 my-auto time-block">10AM</p>
+                <div class="inputText col-sm-8" id="10"><textarea class="form-control" id="textarea"></textarea></div>
+                <button class="saveBtn col-sm-2"><span class="oi oi-circle-check"></span></button>
+            </div>
+        </div>
+        <div class="mustcontain" id="11">
+          <div class="row h-100">
+              <p class="col-sm-1 my-auto time-block">11AM</p>
+              <div class="inputText col-sm-8" id="11"><textarea class="form-control" id="textarea"></textarea></div>
+              <button class="saveBtn col-sm-2"><span class="oi oi-circle-check"></span></button>
+          </div>
+        </div>
+        <div class="mustcontain" id="12">
+          <div class="row h-100">
+              <p class="col-sm-1 my-auto time-block">12PM</p>
+              <div class="inputText col-sm-8" id="12"><textarea class="form-control" id="textarea"></textarea></div>
+              <button class="saveBtn col-sm-2"><span class="oi oi-circle-check"></span></button>
+          </div>
+      </div>
+      <div class="mustcontain" id="13">
+          <div class="row h-100">
+              <p class="col-sm-1 my-auto time-block">1PM</p>
+              <div class="inputText col-sm-8" id="13"><textarea class="form-control" id="textarea"></textarea></div>
+              <button class="saveBtn col-sm-2"><span class="oi oi-circle-check"></span></button>
+          </div>
+      </div>
+      <div class="mustcontain" id="14">
+        <div class="row h-100">
+            <p class="col-sm-1 my-auto time-block">2PM</p>
+            <div class="inputText col-sm-8" id="14"><textarea class="form-control"id="textarea"></textarea></div>
+            <button class="saveBtn col-sm-2"><span class="oi oi-circle-check"></span></button>
+        </div>
+      </div>
+      <div class="mustcontain" id="15">
+        <div class="row h-100">
+            <p class="col-sm-1 my-auto time-block">3PM</p>
+            <div class="inputText col-sm-8" id="15"><textarea class="form-control" id="textarea"></textarea></div>
+            <button class="saveBtn col-sm-2"><span class="oi oi-circle-check"></span></button>
+        </div>
+    </div>
+    <div class="mustcontain" id="16">
+        <div class="row h-100">
+            <p class="col-sm-1 my-auto time-block">4PM</p>
+            <div class="inputText col-sm-8" id="16"><textarea class="form-control" id="textarea"></textarea></div>
+            <button class="saveBtn col-sm-2"><span class="oi oi-circle-check"></span></button>
+        </div>
+    </div>
+    <div class="mustcontain" id="17">
+      <div class="row h-100">
+          <p class="col-sm-1 my-auto time-block">5PM</p>
+          <div class="inputText col-sm-8" id="17"><textarea class="form-control" id="textarea"></textarea></div>
+          <button class="saveBtn col-sm-2"><span class="oi oi-circle-check"></span></button>
+      </div>
+    </div>
+
+    
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
